@@ -14,6 +14,7 @@
 		845FFDFC2715ADD500CDB93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FFDFB2715ADD500CDB93D /* Assets.xcassets */; };
 		845FFDFF2715ADD500CDB93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FFDFD2715ADD500CDB93D /* LaunchScreen.storyboard */; };
 		845FFE072715AF3100CDB93D /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845FFE062715AF3100CDB93D /* ProfileView.xib */; };
+		845FFE112715C16C00CDB93D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FFE102715C16C00CDB93D /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		845FFDFE2715ADD500CDB93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845FFE002715ADD500CDB93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845FFE062715AF3100CDB93D /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		845FFE102715C16C00CDB93D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				845FFDFD2715ADD500CDB93D /* LaunchScreen.storyboard */,
 				845FFE002715ADD500CDB93D /* Info.plist */,
 				845FFE062715AF3100CDB93D /* ProfileView.xib */,
+				845FFE102715C16C00CDB93D /* ProfileView.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845FFE112715C16C00CDB93D /* ProfileView.swift in Sources */,
 				845FFDF72715ADCF00CDB93D /* ViewController.swift in Sources */,
 				845FFDF32715ADCF00CDB93D /* AppDelegate.swift in Sources */,
 				845FFDF52715ADCF00CDB93D /* SceneDelegate.swift in Sources */,
