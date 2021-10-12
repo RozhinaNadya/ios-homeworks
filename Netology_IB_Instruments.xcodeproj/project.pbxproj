@@ -64,6 +64,7 @@
 		845FFDF12715ADCF00CDB93D /* Netology_IB_Instruments */ = {
 			isa = PBXGroup;
 			children = (
+				84A724EA2715F0E50002F7A3 /* Profile */,
 				845FFDF22715ADCF00CDB93D /* AppDelegate.swift */,
 				845FFDF42715ADCF00CDB93D /* SceneDelegate.swift */,
 				845FFDF62715ADCF00CDB93D /* ViewController.swift */,
@@ -71,12 +72,19 @@
 				845FFDFB2715ADD500CDB93D /* Assets.xcassets */,
 				845FFDFD2715ADD500CDB93D /* LaunchScreen.storyboard */,
 				845FFE002715ADD500CDB93D /* Info.plist */,
-				845FFE062715AF3100CDB93D /* ProfileView.xib */,
-				845FFE102715C16C00CDB93D /* ProfileView.swift */,
-				84A724E62715E74A0002F7A3 /* Profile.storyboard */,
-				84A724E82715E7890002F7A3 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
+			sourceTree = "<group>";
+		};
+		84A724EA2715F0E50002F7A3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84A724E82715E7890002F7A3 /* ProfileViewController.swift */,
+				84A724E62715E74A0002F7A3 /* Profile.storyboard */,
+				845FFE102715C16C00CDB93D /* ProfileView.swift */,
+				845FFE062715AF3100CDB93D /* ProfileView.xib */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
